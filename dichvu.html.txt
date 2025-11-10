@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Kỹ Năng & Dịch Vụ - Nguyễn Huy Hoàng</title>
+</head>
+<body>
+    <h1>Kỹ Năng & Lĩnh Vực Chuyên Môn</h1>
+    
+    <h2>Nguyễn Huy Hoàng</h2>
+
+    <p>Dưới đây là tổng hợp các kỹ năng chuyên môn và các dịch vụ tôi có thể cung cấp:</p>
+    
+    <h3>1. Kỹ Năng Công Nghệ (Technical Skills)</h3>
+    <ul>
+        <li><strong>Ngôn ngữ lập trình:</strong> [Ví dụ: Python, JavaScript, C++]</li>
+        <li><strong>Frameworks/Thư viện:</strong> [Ví dụ: React, Node.js, Django, Laravel]</li>
+        <li><strong>Cơ sở dữ liệu:</strong> [Ví dụ: MySQL, MongoDB, PostgreSQL]</li>
+        <li><strong>Công cụ/Môi trường:</strong> Git, GitHub, VS Code, Docker.</li>
+    </ul>
+
+    <h3>2. Dịch Vụ & Lĩnh Vực Làm Việc</h3>
+    <ol>
+        <li>**Thiết kế và Phát triển Website:** [Ví dụ: Xây dựng website cá nhân/doanh nghiệp bằng HTML/CSS/JS]</li>
+        <li>**Phân tích và Xử lý Dữ liệu:** [Ví dụ: Viết script phân tích dữ liệu, tạo báo cáo]</li>
+        <li>**Tư vấn Giải pháp Công nghệ:** [Ví dụ: Hỗ trợ lựa chọn công nghệ cho dự án nhỏ]</li>
+        <li>[Thêm Dịch vụ khác của bạn vào đây]</li>
+    </ol>
+
+    <h3>Menu Điều Hướng</h3>
+    <ul>
+        <li><a href="trangchu.html">Trang Chủ (Nguyễn Huy Hoàng)</a></li>
+        <li><a href="thongtin.html">Thông Tin Cá Nhân & Liên Hệ</a></li>
+        <li><a href="dichvu.html">Kỹ Năng & Dịch Vụ</a></li>
+    </ul>
+
+    <hr>
+    <footer>
+        <p>Liên hệ với tôi qua trang Thông Tin Cá Nhân để thảo luận về dự án.</p>
+    </footer>
+</body>
+</html>

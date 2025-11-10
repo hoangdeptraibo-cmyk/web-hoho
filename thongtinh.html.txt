@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thông Tin Cá Nhân - Nguyễn Huy Hoàng</title>
+</head>
+<body>
+    <h1>Thông Tin Cá Nhân & Liên Hệ</h1>
+    
+    <h2>Nguyễn Huy Hoàng</h2>
+
+    <p>Dưới đây là một số thông tin cơ bản và cách thức liên lạc với tôi.</p>
+    
+    <h3>Chi Tiết Cá Nhân</h3>
+    <ul>
+        <li><strong>Ngày sinh:</strong> [Điền Ngày/Tháng/Năm sinh của bạn]</li>
+        <li><strong>Quê quán:</strong> [Điền Tỉnh/Thành phố của bạn]</li>
+        <li><strong>Trình độ học vấn:</strong> [Điền Ví dụ: Sinh viên ngành CNTT, Kỹ sư Phần mềm...]</li>
+        <li><strong>Sở thích:</strong> [Điền Ví dụ: Đọc sách, Chơi game, Lập trình...]</li>
+    </ul>
+
+    <h3>Liên Hệ</h3>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:email_cua_ban@example.com">[email_cua_ban@example.com]</a></li>
+        <li><strong>Điện thoại:</strong> [Điền Số điện thoại của bạn]</li>
+        <li><strong>Địa chỉ hiện tại:</strong> [Điền Địa chỉ/Khu vực bạn đang sinh sống]</li>
+        <li><strong>GitHub/Portfolio:</strong> <a href="[Đường dẫn GitHub của bạn]" target="_blank">[Đường dẫn GitHub của bạn]</a></li>
+    </ul>
+
+    <h3>Menu Điều Hướng</h3>
+    <ul>
+        <li><a href="trangchu.html">Trang Chủ (Nguyễn Huy Hoàng)</a></li>
+        <li><a href="thongtin.html">Thông Tin Cá Nhân & Liên Hệ</a></li>
+        <li><a href="dichvu.html">Kỹ Năng & Dịch Vụ</a></li>
+    </ul>
+
+    <hr>
+    <footer>
+        <p>Tôi luôn sẵn lòng kết nối và hợp tác. Xin cảm ơn!</p>
+    </footer>
+</body>
+</html>

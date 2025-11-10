@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang Chủ - Nguyễn Huy Hoàng</title>
+</head>
+<body>
+    <h1>Chào mừng đến với Trang Chủ của Nguyễn Huy Hoàng!</h1>
+    
+    <p>
+        Xin chào! Tôi là **Nguyễn Huy Hoàng**, đây là trang web cá nhân nơi tôi chia sẻ thông tin về bản thân và các dịch vụ tôi cung cấp.
+    </p>
+
+    <h2>Giới Thiệu Sơ Lược</h2>
+    <p>
+        Tôi hiện đang học tập/làm việc trong lĩnh vực [Điền lĩnh vực của bạn vào đây, ví dụ: Công nghệ thông tin, Thiết kế Web, Marketing...]. 
+        Mục tiêu của tôi là [Điền mục tiêu cá nhân hoặc nghề nghiệp của bạn].
+    </p>
+
+    <h3>Menu Điều Hướng</h3>
+    <ul>
+        <li><a href="trangchu.html">Trang Chủ (Nguyễn Huy Hoàng)</a></li>
+        <li><a href="thongtin.html">Thông Tin Cá Nhân & Liên Hệ</a></li>
+        <li><a href="dichvu.html">Kỹ Năng & Dịch Vụ</a></li>
+    </ul>
+
+    <hr>
+    <footer>
+        <p>&copy; 2025 Nguyễn Huy Hoàng. Trang web cá nhân.</p>
+    </footer>
+</body>
+</html>
