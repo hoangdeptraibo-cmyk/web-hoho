@@ -2,9 +2,9 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Kỹ Năng & Dịch Vụ - Nguyễn Huy Hoàng</title>
+    <title>Kỹ Năng & Dịch Vụ - Nguyễn Huy Hoàng (Đỏ, Menu Ngang)</title>
     <style>
-        /* CSS để đồng bộ với các trang khác */
+        /* CSS để đồng bộ với các trang khác (ĐÃ SỬA MÀU VÀ BỐ CỤC MENU) */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4; /* Màu nền trang web: Xám nhạt */
@@ -14,96 +14,38 @@
         }
 
         h1 {
-            color: #0056b3; /* Màu tiêu đề chính: Xanh đậm */
+            color: #8B0000; /* MÀU ĐÃ SỬA: Đỏ Sẫm */
             border-bottom: 2px solid #ccc;
             padding-bottom: 10px;
         }
 
         h2, h3 {
-            color: #007bff; /* Màu tiêu đề phụ: Xanh dương */
+            color: #CC0000; /* MÀU ĐÃ SỬA: Đỏ tươi */
         }
 
         /* Định dạng cho tất cả các đường liên kết */
         a {
-            color: #007bff; /* Màu đường link */
-            text-decoration: none; /* LOẠI BỎ GẠCH CHÂN */
+            color: #CC0000; /* MÀU ĐÃ SỬA: Đỏ tươi */
+            text-decoration: none; 
         }
 
         /* Hiệu ứng khi di chuột qua đường link */
         a:hover {
-            color: #0056b3; /* Màu link khi di chuột: Xanh đậm hơn */
-            text-decoration: underline; /* Thêm lại gạch chân khi di chuột */
+            color: #8B0000; /* MÀU ĐÃ SỬA: Đỏ Sẫm hơn khi di chuột */
+            text-decoration: underline; 
         }
 
         /* Danh sách Kỹ năng/Menu */
         ul {
-            list-style: none; /* Loại bỏ dấu chấm đầu dòng cho Menu/Kỹ năng */
+            list-style: none; /* Loại bỏ dấu chấm đầu dòng cho Kỹ năng/Menu */
             padding-left: 0;
         }
 
         ul li {
             margin-bottom: 5px;
         }
-
-        /* Danh sách Dịch vụ */
-        ol {
-            padding-left: 20px;
-        }
         
-        ol li {
-            margin-bottom: 10px;
-        }
-
-
-        hr {
-            border: 0;
-            height: 1px;
-            background-color: #ccc;
-            margin: 20px 0;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #e9ecef; /* Màu nền footer: Xám rất nhạt */
-            color: #6c757d;
-            border-top: 1px solid #ccc;
-        }
-    </style>
-</head>
-<body>
-    <h1>Kỹ Năng & Lĩnh Vực Chuyên Môn</h1>
-    
-    <h2>Nguyễn Huy Hoàng</h2>
-
-    <p>Dưới đây là tổng hợp các kỹ năng chuyên môn và các dịch vụ tôi có thể cung cấp:</p>
-    
-    <h3>1. Kỹ Năng Công Nghệ (Technical Skills)</h3>
-    <ul>
-        <li><strong>Ngôn ngữ lập trình:</strong> [Ví dụ: Python, JavaScript, C++]</li>
-        <li><strong>Frameworks/Thư viện:</strong> [Ví dụ: React, Node.js, Django, Laravel]</li>
-        <li><strong>Cơ sở dữ liệu:</strong> [Ví dụ: MySQL, MongoDB, PostgreSQL]</li>
-        <li><strong>Công cụ/Môi trường:</strong> Git, GitHub, VS Code, Docker.</li>
-    </ul>
-
-    <h3>2. Dịch Vụ & Lĩnh Vực Làm Việc</h3>
-    <ol>
-        <li>**Thiết kế và Phát triển Website:** [Ví dụ: Xây dựng website cá nhân/doanh nghiệp bằng HTML/CSS/JS]</li>
-        <li>**Phân tích và Xử lý Dữ liệu:** [Ví dụ: Viết script phân tích dữ liệu, tạo báo cáo]</li>
-        <li>**Tư vấn Giải pháp Công nghệ:** [Ví dụ: Hỗ trợ lựa chọn công nghệ cho dự án nhỏ]</li>
-        <li>[Thêm Dịch vụ khác của bạn vào đây]</li>
-    </ol>
-
-    <h3>Menu Điều Hướng</h3>
-    <ul>
-        <li><a href="trangchu.html">Trang Chủ (Nguyễn Huy Hoàng)</a></li>
-        <li><a href="thongtin.html">Thông Tin Cá Nhân & Liên Hệ</a></li>
-        <li><a href="dichvu.html">Kỹ Năng & Dịch Vụ</a></li>
-    </ul>
-
-    <hr>
-    <footer>
-        <p>Liên hệ với tôi qua trang Thông Tin Cá Nhân để thảo luận về dự án.</p>
-    </footer>
-</body>
-</html>
+        /* QUY TẮC MỚI: Đặt Menu Điều Hướng thành 1 hàng */
+        /* Sử dụng selector cụ thể cho menu điều hướng cuối cùng nếu cần, hoặc giả định rằng
+           các danh sách kỹ năng không cần nằm ngang và chỉ áp dụng cho menu cuối. 
+           Nếu chỉ dùng 'ul li' chung thì menu và kỹ năng đều
