@@ -2,9 +2,9 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Thông Tin Cá Nhân - Nguyễn Huy Hoàng</title>
+    <title>Thông Tin Cá Nhân - Nguyễn Huy Hoàng (Đỏ, Menu Ngang)</title>
     <style>
-        /* CSS để đồng bộ với Trang Chủ */
+        /* CSS để đồng bộ với Trang Chủ (Đã sửa màu và bố cục menu) */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4; /* Màu nền trang web: Xám nhạt */
@@ -14,35 +14,51 @@
         }
 
         h1 {
-            color: #0056b3; /* Màu tiêu đề chính: Xanh đậm */
+            color: #8B0000; /* MÀU ĐÃ SỬA: Đỏ Sẫm */
             border-bottom: 2px solid #ccc;
             padding-bottom: 10px;
         }
 
         h2, h3 {
-            color: #007bff; /* Màu tiêu đề phụ: Xanh dương */
+            color: #CC0000; /* MÀU ĐÃ SỬA: Đỏ tươi */
         }
 
         /* Định dạng cho tất cả các đường liên kết */
         a {
-            color: #007bff; /* Màu đường link */
-            text-decoration: none; /* LOẠI BỎ GẠCH CHÂN */
+            color: #CC0000; /* MÀU ĐÃ SỬA: Đỏ tươi */
+            text-decoration: none; 
         }
 
         /* Hiệu ứng khi di chuột qua đường link */
         a:hover {
-            color: #0056b3; /* Màu link khi di chuột: Xanh đậm hơn */
-            text-decoration: underline; /* Thêm lại gạch chân khi di chuột */
+            color: #8B0000; /* MÀU ĐÃ SỬA: Đỏ Sẫm hơn khi di chuột */
+            text-decoration: underline; 
         }
 
         ul {
             list-style: none; /* Loại bỏ dấu chấm đầu dòng */
             padding-left: 0;
         }
+        
+        /* QUY TẮC ĐÃ SỬA: Bố cục cho Menu Điều Hướng */
+        /* Menu Điều Hướng là ul thứ 3, không ảnh hưởng các danh sách thông tin cá nhân */
+        /* Tuy nhiên, để tránh ảnh hưởng, tôi sẽ dùng selector cụ thể hơn */
 
-        ul li {
-            margin-bottom: 10px;
+        .menu-nav ul li {
+            display: inline; /* ĐÃ SỬA: Đưa các mục menu về 1 hàng */
+            margin-right: 20px;
         }
+        
+        /* Cần chỉnh lại li mặc định để không ảnh hưởng đến menu ngang */
+        ul li {
+            margin-bottom: 5px; /* Giảm khoảng cách mặc định của li */
+        }
+        
+        .menu-nav li {
+            margin-bottom: 0; /* Xóa margin-bottom cho menu ngang */
+        }
+        
+        /* Thêm class cho phần menu điều hướng để chỉ định rõ hơn */
 
         hr {
             border: 0;
@@ -84,7 +100,8 @@
     </ul>
 
     <h3>Menu Điều Hướng</h3>
-    <ul>
+    
+    <ul class="menu-nav"> 
         <li><a href="trangchu.html">Trang Chủ (Nguyễn Huy Hoàng)</a></li>
         <li><a href="thongtin.html">Thông Tin Cá Nhân & Liên Hệ</a></li>
         <li><a href="dichvu.html">Kỹ Năng & Dịch Vụ</a></li>
