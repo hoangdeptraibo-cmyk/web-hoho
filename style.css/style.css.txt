@@ -1,0 +1,20 @@
+/* h1: màu chữ đỏ, căn giữa */
+h1 {
+    color: red;
+    text-align: center;
+}
+
+/* p thứ nhất (ID: p1): màu chữ vàng, cỡ chữ 13, font Arial */
+#p1 {
+    color: gold;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+/* p thứ hai (ID: p2): màu nền vàng, in đậm, cỡ chữ 13, font Times New Roman */
+#p2 {
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Times New Roman", Times, serif;
+}
